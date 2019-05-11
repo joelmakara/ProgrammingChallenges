@@ -1,0 +1,11 @@
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\bin\Debug\netcoreapp2.1\PrefixCounter.deps.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\bin\Debug\netcoreapp2.1\PrefixCounter.runtimeconfig.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\bin\Debug\netcoreapp2.1\PrefixCounter.runtimeconfig.dev.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\bin\Debug\netcoreapp2.1\PrefixCounter.dll
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\bin\Debug\netcoreapp2.1\PrefixCounter.pdb
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\obj\Debug\netcoreapp2.1\PrefixCounter.csprojAssemblyReference.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\obj\Debug\netcoreapp2.1\PrefixCounter.csproj.CoreCompileInputs.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\obj\Debug\netcoreapp2.1\PrefixCounter.AssemblyInfoInputs.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\obj\Debug\netcoreapp2.1\PrefixCounter.AssemblyInfo.cs
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\obj\Debug\netcoreapp2.1\PrefixCounter.dll
+E:\Source\DevAssessments\20190511_Luno_HackerRank\PrefixCounter\PrefixCounter\obj\Debug\netcoreapp2.1\PrefixCounter.pdb

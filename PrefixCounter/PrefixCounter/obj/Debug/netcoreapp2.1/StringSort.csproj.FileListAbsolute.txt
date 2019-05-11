@@ -1,0 +1,10 @@
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\bin\Debug\netcoreapp2.1\StringSort.deps.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\bin\Debug\netcoreapp2.1\StringSort.runtimeconfig.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\bin\Debug\netcoreapp2.1\StringSort.runtimeconfig.dev.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\bin\Debug\netcoreapp2.1\StringSort.dll
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\bin\Debug\netcoreapp2.1\StringSort.pdb
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\obj\Debug\netcoreapp2.1\StringSort.csproj.CoreCompileInputs.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\obj\Debug\netcoreapp2.1\StringSort.AssemblyInfoInputs.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\obj\Debug\netcoreapp2.1\StringSort.AssemblyInfo.cs
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\obj\Debug\netcoreapp2.1\StringSort.dll
+E:\Source\DevAssessments\20190511_Luno_HackerRank\StringSort\StringSort\obj\Debug\netcoreapp2.1\StringSort.pdb

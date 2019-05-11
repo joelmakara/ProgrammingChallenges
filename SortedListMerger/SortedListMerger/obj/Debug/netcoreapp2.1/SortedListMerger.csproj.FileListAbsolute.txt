@@ -1,0 +1,11 @@
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\bin\Debug\netcoreapp2.1\SortedListMerger.deps.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\bin\Debug\netcoreapp2.1\SortedListMerger.runtimeconfig.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\bin\Debug\netcoreapp2.1\SortedListMerger.runtimeconfig.dev.json
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\bin\Debug\netcoreapp2.1\SortedListMerger.dll
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\bin\Debug\netcoreapp2.1\SortedListMerger.pdb
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\obj\Debug\netcoreapp2.1\SortedListMerger.csprojAssemblyReference.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\obj\Debug\netcoreapp2.1\SortedListMerger.csproj.CoreCompileInputs.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\obj\Debug\netcoreapp2.1\SortedListMerger.AssemblyInfoInputs.cache
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\obj\Debug\netcoreapp2.1\SortedListMerger.AssemblyInfo.cs
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\obj\Debug\netcoreapp2.1\SortedListMerger.dll
+E:\Source\DevAssessments\20190511_Luno_HackerRank\SortedListMerger\SortedListMerger\obj\Debug\netcoreapp2.1\SortedListMerger.pdb
