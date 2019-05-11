@@ -1,0 +1,14 @@
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.deps.json
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.runtimeconfig.json
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.runtimeconfig.dev.json
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.dll
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.csprojAssemblyReference.cache
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.csproj.CoreCompileInputs.cache
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorAssemblyInfo.cache
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorAssemblyInfo.cs
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.AssemblyInfoInputs.cache
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.AssemblyInfo.cs
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorTargetAssemblyInfo.cache
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.pdb
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.dll
+E:\Source\DevAssessments\20190503 TariLabs\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.pdb

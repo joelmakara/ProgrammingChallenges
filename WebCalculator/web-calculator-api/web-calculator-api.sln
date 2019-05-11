@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28809.33
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-calculator-api", "web-calculator-api\web-calculator-api.csproj", "{9245AD71-A781-4D34-9E1A-74750FA1D139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-calculator-api-tests", "web-calculator-api-tests\web-calculator-api-tests.csproj", "{63F4F763-D76E-446B-9650-7D46E7C5FBAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9245AD71-A781-4D34-9E1A-74750FA1D139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9245AD71-A781-4D34-9E1A-74750FA1D139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9245AD71-A781-4D34-9E1A-74750FA1D139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9245AD71-A781-4D34-9E1A-74750FA1D139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F4F763-D76E-446B-9650-7D46E7C5FBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F4F763-D76E-446B-9650-7D46E7C5FBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F4F763-D76E-446B-9650-7D46E7C5FBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F4F763-D76E-446B-9650-7D46E7C5FBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D1AF737-B2FB-4003-B90C-AEFADE03A051}
+	EndGlobalSection
+EndGlobal
