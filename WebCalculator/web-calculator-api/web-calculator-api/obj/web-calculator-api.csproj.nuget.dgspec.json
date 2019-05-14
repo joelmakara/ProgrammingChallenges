@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Source\\DevAssessments\\20190503 TariLabs\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {}
+    "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {}
   },
   "projects": {
-    "E:\\Source\\DevAssessments\\20190503 TariLabs\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {
+    "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\DevAssessments\\20190503 TariLabs\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
+        "projectUniqueName": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
         "projectName": "web-calculator-api",
-        "projectPath": "E:\\Source\\DevAssessments\\20190503 TariLabs\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
+        "projectPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
         "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\DevAssessments\\20190503 TariLabs\\WebCalculator\\web-calculator-api\\web-calculator-api\\obj\\",
+        "outputPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

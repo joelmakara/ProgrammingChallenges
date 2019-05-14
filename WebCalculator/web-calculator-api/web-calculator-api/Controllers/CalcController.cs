@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using web_calculator_api.Models;
 using web_calculator_api.Domain;
+using Microsoft.AspNetCore.Cors;
 
 namespace web_calculator_api.Controllers
 {
@@ -40,8 +41,9 @@ namespace web_calculator_api.Controllers
         }
 
         // POST: api/Calc
+        //[Route("api/calc/post")]
         [HttpPost]
-        public ApiResult Post([FromBody] string value)
+        public ApiResult Post([FromBody] ApiRequest request)
         {            
             var errorApiResult = new ApiResult
             {
@@ -49,7 +51,9 @@ namespace web_calculator_api.Controllers
                 HasError = true
             };
 
-            if(string.IsNullOrWhiteSpace(value))
+            var value = request.Expression; 
+            
+                if(string.IsNullOrWhiteSpace(value))
             {
                 errorApiResult.ErrorMessages = new List<string> { "Invalid input expression. An example of expected input is '4 * 7 + 10.5'" };
                 return errorApiResult;
