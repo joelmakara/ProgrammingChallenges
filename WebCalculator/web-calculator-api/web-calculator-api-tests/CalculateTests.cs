@@ -17,9 +17,9 @@ namespace web_calculator_api_tests
         [Fact]
         public void CalculateYieldsCorrectResultWithSimpleValidInput()
         {
-            var inputEquation = "5 + 6";
+            var inputEquation = "5.5 + 6.2";
             var result  = Calculate.Process(inputEquation);
-            Assert.Equal("11", result);
+            Assert.Equal("11.7", result);
         }
 
         [Fact]
@@ -35,7 +35,7 @@ namespace web_calculator_api_tests
         {
             var inputEquation = "5 + 6 * 8 / 2 - 7 + 21 * 4 + 14 - 5";
             var result = Calculate.Process(inputEquation);
-            Assert.Equal("-62", result);
+            Assert.Equal("115", result);
         }
     }
 }

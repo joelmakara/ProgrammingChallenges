@@ -11,7 +11,7 @@ namespace web_calculator_api.Domain
             try
             {
                 
-                if (string.IsNullOrWhiteSpace(input))
+                if (!isValid(input))
                 {
                     throw new CannnotEvaluateEpressionException();
                 }                
@@ -24,23 +24,43 @@ namespace web_calculator_api.Domain
             }
         }
 
-        private static int evaluate(string input)
+        private static bool isValid(string input)
         {
-            int result;
-            if (Operators.OperatorCount(input) == 0 && Int32.TryParse(input, out result))
+            if(string.IsNullOrWhiteSpace(input))
+            {
+                return false;
+            }
+            
+            decimal operand = 0m;
+            var splitList = input.Split(Operators.AllOperators.ToArray()).ToList();
+
+            foreach( var op in splitList)
+            {
+                if (!decimal.TryParse(op, out operand))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        private static decimal evaluate(string input)
+        {
+            decimal result;
+            if (Operators.OperatorCount(input) == 0 && decimal.TryParse(input, out result))
             {
                 return result;
             }
 
             var components = splitOperands(input);
 
-            int leftOperand = 0, 
-                rightOperand = 0;
+            decimal leftOperand = 0, rightOperand = 0;
 
             var _operator = components[1];
 
-            if (Int32.TryParse(components[0], out leftOperand) &&
-               Int32.TryParse(components[2], out rightOperand))
+            if (decimal.TryParse(components[0], out leftOperand) &&
+               decimal.TryParse(components[2], out rightOperand))
             {
                 return compute(components);
             }
@@ -53,12 +73,12 @@ namespace web_calculator_api.Domain
             
         }               
 
-        private static int compute(List<string> components)
+        private static decimal compute(List<string> components)
         {
-            var result = 0;
-            var leftOperand = Int32.Parse(components[0]);
-            var _operator = Char.Parse(components[1]);
-            var rightOperand = Int32.Parse(components[2]);
+            var result = 0m;
+            var leftOperand = decimal.Parse(components[0]);
+            var _operator = char.Parse(components[1]);
+            var rightOperand = decimal.Parse(components[2]);
 
             switch (_operator)
             {
@@ -86,7 +106,7 @@ namespace web_calculator_api.Domain
         private static List<string> splitOperands(string input)
         {
             char operatorToSplitBy = Operators.GetLowestPrecedence(input);
-            var splitList = input.Split(operatorToSplitBy).ToList();
+            var splitList = input.Split(operatorToSplitBy, 2).ToList();
 
             return new List<string> { splitList[0], operatorToSplitBy.ToString(), splitList[1] };
         }

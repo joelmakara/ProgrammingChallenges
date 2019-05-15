@@ -56,6 +56,6 @@ namespace web_calculator_api.Domain
                 }
             }
             return ' ';
-        }
+        }        
     }
 }

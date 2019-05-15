@@ -18,6 +18,11 @@ export class AppComponent {
   async submitExpression( expression: string) {
     const inupt = {Expression: expression };
     this.serverResponse = await this.calculateService.evaluateExpression(inupt).toPromise();
-    this.result = this.serverResponse.result;
-  }
+
+    if (this.serverResponse.hasError) {
+      this.result = this.serverResponse.errorMessages[0];
+    } else {
+      this.result = this.serverResponse.result;
+    }
+}
 }
