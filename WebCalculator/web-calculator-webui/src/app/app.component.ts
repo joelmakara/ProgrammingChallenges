@@ -1,3 +1,4 @@
+import { ApiResult } from './models/ApiResult';
 import { CalculateService } from './services/calculate.service';
 import { Component } from '@angular/core';
 
@@ -11,10 +12,12 @@ export class AppComponent {
 
   constructor(private calculateService: CalculateService) { }
 
-  expression: string;
   result: string;
+  serverResponse: ApiResult;
 
-  submitExpression() {
-      this.result = this.calculateService.evaluateExpression(this.expression);
+  async submitExpression( expression: string) {
+    const inupt = {Expression: expression };
+    this.serverResponse = await this.calculateService.evaluateExpression(inupt).toPromise();
+    this.result = this.serverResponse.result;
   }
 }

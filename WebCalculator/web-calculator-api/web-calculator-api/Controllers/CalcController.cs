@@ -42,8 +42,9 @@ namespace web_calculator_api.Controllers
 
         // POST: api/Calc
         //[Route("api/calc/post")]
+        [EnableCors("CorsPolicy")]
         [HttpPost]
-        public ApiResult Post([FromBody] ApiRequest request)
+        public ApiResult Post(ApiRequest request)
         {            
             var errorApiResult = new ApiResult
             {

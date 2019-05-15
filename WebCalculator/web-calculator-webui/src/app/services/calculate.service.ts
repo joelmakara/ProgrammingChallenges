@@ -1,5 +1,7 @@
+import { ApiResult } from './../models/ApiResult';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,16 +12,7 @@ export class CalculateService {
 
   calcUrl = 'https://localhost:44315/api/calc/';
 
-  httpOptions = {
-    headers: new HttpHeaders({ 'Content-Type': 'application/json; charset=utf-8;', Accept: '*/*' })
-  };
-
-  evaluateExpression( expression: string) {
-    let output = '';
-    this.http.post(this.calcUrl, {}).subscribe(response => {
-      output = response.toString();
-      console.log(response);
-    });
-    return output;
+  evaluateExpression(expression) {
+    return this.http.post<ApiResult>(this.calcUrl, expression);
   }
 }

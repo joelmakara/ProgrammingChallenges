@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj": {}
+    "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj": {}
   },
   "projects": {
-    "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj": {
+    "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj",
+        "projectUniqueName": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj",
         "projectName": "web-calculator-api-tests",
-        "projectPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj",
+        "projectPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\web-calculator-api-tests.csproj",
         "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\obj\\",
+        "outputPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api-tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {
-                "projectPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj"
+              "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {
+                "projectPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {
+    "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
+        "projectUniqueName": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
         "projectName": "web-calculator-api",
-        "projectPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
+        "projectPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
         "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-        "outputPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\obj\\",
+        "outputPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",

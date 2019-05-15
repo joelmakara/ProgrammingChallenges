@@ -26,3 +26,17 @@ E:\Source\Programming Challenges\WebCalculator\web-calculator-api\web-calculator
 E:\Source\Programming Challenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.dll
 E:\Source\Programming Challenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.pdb
 E:\Source\Programming Challenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorTargetAssemblyInfo.cache
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.deps.json
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.runtimeconfig.json
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.runtimeconfig.dev.json
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.dll
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\bin\Debug\netcoreapp2.1\web-calculator-api.pdb
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.csprojAssemblyReference.cache
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.csproj.CoreCompileInputs.cache
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorAssemblyInfo.cache
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorAssemblyInfo.cs
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.AssemblyInfoInputs.cache
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.AssemblyInfo.cs
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.RazorTargetAssemblyInfo.cache
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.dll
+E:\Source\ProgrammingChallenges\WebCalculator\web-calculator-api\web-calculator-api\obj\Debug\netcoreapp2.1\web-calculator-api.pdb

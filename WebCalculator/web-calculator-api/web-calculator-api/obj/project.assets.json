@@ -12540,11 +12540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
+      "projectUniqueName": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
       "projectName": "web-calculator-api",
-      "projectPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
+      "projectPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\web-calculator-api.csproj",
       "packagesPath": "C:\\Users\\makar\\.nuget\\packages\\",
-      "outputPath": "E:\\Source\\Programming Challenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\obj\\",
+      "outputPath": "E:\\Source\\ProgrammingChallenges\\WebCalculator\\web-calculator-api\\web-calculator-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

@@ -12,11 +12,11 @@
   <input #expression>
   <br/>
   <br/>
-  <button #submit (click)="submitExpression()">Submit</button>   
+  <button #submit (click)="submitExpression(expression.value)">Submit</button>   
 </div>
 <div>
     <br/>
-  Result: <span>{{ result | async}}</span>
+  Result: <span>{{ result }}</span>
 </div>
 
 
