@@ -33,6 +33,51 @@ namespace web_calculator_api.Domain
             return Divide;            
         }
 
+        public static char GetHighestPrecedence(string input)
+        {
+            if (input.Contains(Divide))
+            {
+                return Divide;
+            }
+
+            if (input.Contains(Multiply))
+            {
+                return Multiply;
+            }
+
+            if (input.Contains(Add))
+            {
+                return Add;
+            }
+
+            return Subtract;
+        }
+
+        public static List<string> Split(string input)
+        {
+            input = input.Replace(" ", string.Empty);
+            var components = new List<string>();
+            var lastSplitIndex = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                var operand = string.Empty;
+                if (AllOperators.Contains(input[i]) && i != lastSplitIndex)
+                {
+                    operand = input.Substring(lastSplitIndex, i - lastSplitIndex);
+                    components.Add(operand);
+                    components.Add(input[i].ToString());
+                    lastSplitIndex = i + 1;
+                }
+            }
+
+            if(lastSplitIndex < input.Length)
+            {
+                components.Add(input.Substring(lastSplitIndex, input.Length - lastSplitIndex));
+            }
+
+            return components;
+        }
+
         public static int OperatorCount(string input)
         {
             var count = 0;

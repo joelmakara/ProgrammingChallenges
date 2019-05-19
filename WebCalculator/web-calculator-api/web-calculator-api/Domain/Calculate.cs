@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace web_calculator_api.Domain
 {
@@ -8,14 +9,16 @@ namespace web_calculator_api.Domain
     {
         public static string Process(string input)
         {
+            input = input.Replace(" ", string.Empty);
+
             try
             {
-                
+
                 if (!isValid(input))
                 {
                     throw new CannnotEvaluateEpressionException();
-                }                
-                
+                }
+
                 return evaluate(input).ToString();
             }
             catch (CannnotEvaluateEpressionException e)
@@ -24,17 +27,68 @@ namespace web_calculator_api.Domain
             }
         }
 
+        private static decimal evaluate(string input)
+        {
+            input = input.Replace(" ", string.Empty);
+
+            decimal result;
+            if (Operators.OperatorCount(input) == 0)
+            {
+                if (decimal.TryParse(input, out result))
+                {
+                    return result;
+                }
+                else
+                {
+                    throw new CannnotEvaluateEpressionException();
+                }
+            }
+
+            if (Operators.OperatorCount(input) == 1
+                && Operators.GetFirstOperator(input).Equals('-')
+                && decimal.TryParse(input, out result))
+            {
+                return result;
+            }
+
+            var _operator = Operators.GetHighestPrecedence(input);
+            var splitList = Operators.Split(input);
+            var operatorPos = splitList.IndexOf(_operator.ToString());
+            decimal leftoperand = 0m, rightoperand = 0m;
+
+            var expressionList = new List<string> {
+                                                        splitList.ElementAt(operatorPos-1),
+                                                        _operator.ToString(),
+                                                        splitList.ElementAt(operatorPos+1)
+                                                  };
+
+            var expressionStr = string.Concat(expressionList);
+
+            if (decimal.TryParse(splitList.First(), out leftoperand) &&
+               decimal.TryParse(splitList.Last(), out rightoperand))
+            {
+                var regex = new Regex(Regex.Escape(expressionStr));
+                input = regex.Replace(input, compute(expressionList).ToString(), 1);
+            }
+
+            return evaluate(input);
+        }
+
         private static bool isValid(string input)
         {
-            if(string.IsNullOrWhiteSpace(input))
+            input = input.Replace(" ", string.Empty);
+
+            if (string.IsNullOrWhiteSpace(input) ||
+                Operators.AllOperators.Contains(input.First()) ||
+                Operators.AllOperators.Contains(input.Last()))
             {
                 return false;
             }
-            
+
             decimal operand = 0m;
             var splitList = input.Split(Operators.AllOperators.ToArray()).ToList();
 
-            foreach( var op in splitList)
+            foreach (var op in splitList)
             {
                 if (!decimal.TryParse(op, out operand))
                 {
@@ -44,34 +98,6 @@ namespace web_calculator_api.Domain
 
             return true;
         }
-
-        private static decimal evaluate(string input)
-        {
-            decimal result;
-            if (Operators.OperatorCount(input) == 0 && decimal.TryParse(input, out result))
-            {
-                return result;
-            }
-
-            var components = splitOperands(input);
-
-            decimal leftOperand = 0, rightOperand = 0;
-
-            var _operator = components[1];
-
-            if (decimal.TryParse(components[0], out leftOperand) &&
-               decimal.TryParse(components[2], out rightOperand))
-            {
-                return compute(components);
-            }
-
-
-            leftOperand = evaluate(components[0]);
-            rightOperand = evaluate(components[2]);
-
-            return compute(new List<string> { leftOperand.ToString(), _operator, rightOperand.ToString() });
-            
-        }               
 
         private static decimal compute(List<string> components)
         {
@@ -101,16 +127,7 @@ namespace web_calculator_api.Domain
             }
             return result;
         }
-        
 
-        private static List<string> splitOperands(string input)
-        {
-            char operatorToSplitBy = Operators.GetLowestPrecedence(input);
-            var splitList = input.Split(operatorToSplitBy, 2).ToList();
 
-            return new List<string> { splitList[0], operatorToSplitBy.ToString(), splitList[1] };
-        }
-
-        
     }
 }       

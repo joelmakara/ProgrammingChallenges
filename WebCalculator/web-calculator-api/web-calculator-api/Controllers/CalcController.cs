@@ -54,7 +54,7 @@ namespace web_calculator_api.Controllers
 
             var value = request.Expression; 
             
-                if(string.IsNullOrWhiteSpace(value))
+            if(string.IsNullOrWhiteSpace(value))
             {
                 errorApiResult.ErrorMessages = new List<string> { "Invalid input expression. An example of expected input is '4 * 7 + 10.5'" };
                 return errorApiResult;

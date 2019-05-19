@@ -35,7 +35,7 @@ namespace web_calculator_api_tests
         {
             var inputEquation = "5 + 6 * 8 / 2 - 7 + 21 * 4 + 14 - 5";
             var result = Calculate.Process(inputEquation);
-            Assert.Equal("115", result);
+            Assert.Equal("-81", result);
         }
     }
 }
